@@ -1,0 +1,29 @@
+2025-08-11 16:47:40 - INFO - Starting analysis for LV dataset
+2025-08-11 16:47:40 - INFO - Plot seed: 42
+2025-08-11 16:47:40 - INFO - Score seeds: [1, 2, 3, 4, 5, 40, 41, 42, 43, 44]
+2025-08-11 16:47:40 - INFO - Output directory: analysis_results/LV_analysis
+2025-08-11 16:47:40 - INFO - Loading data and creating plot...
+2025-08-11 16:47:41 - INFO - Plot saved: analysis_results/LV_analysis/LV_results_seed_42.png
+2025-08-11 16:47:41 - INFO - Calculating scores across multiple seeds...
+2025-08-11 16:47:41 - INFO - 
+Calculating scores for LV:
+2025-08-11 16:47:41 - INFO - --------------------------------------------------
+2025-08-11 16:47:42 - INFO - Seed 1: MMD = 0.306891, EMD = 0.219034
+2025-08-11 16:47:42 - INFO - Seed 2: MMD = 0.264629, EMD = 0.170522
+2025-08-11 16:47:43 - INFO - Seed 3: MMD = 0.304863, EMD = 0.229319
+2025-08-11 16:47:43 - INFO - Seed 4: MMD = 0.289046, EMD = 0.189109
+2025-08-11 16:47:44 - INFO - Seed 5: MMD = 0.232541, EMD = 0.162263
+2025-08-11 16:47:44 - INFO - Seed 40: MMD = 0.231932, EMD = 0.157618
+2025-08-11 16:47:44 - INFO - Seed 41: MMD = 0.201032, EMD = 0.147329
+2025-08-11 16:47:45 - INFO - Seed 42: MMD = 0.232668, EMD = 0.167012
+2025-08-11 16:47:45 - INFO - Seed 43: MMD = 0.480113, EMD = 0.339661
+2025-08-11 16:47:46 - INFO - Seed 44: MMD = 0.149094, EMD = 0.132039
+2025-08-11 16:47:46 - INFO - 
+MMD Results:
+2025-08-11 16:47:46 - INFO - Mean ± Std: 0.269281 ± 0.084102
+2025-08-11 16:47:46 - INFO - 
+EMD Results:
+2025-08-11 16:47:46 - INFO - Mean ± Std: 0.191390 ± 0.057162
+2025-08-11 16:47:46 - INFO - Analysis complete for LV!
+2025-08-11 16:47:46 - INFO - Results saved to: analysis_results/LV_analysis
+2025-08-11 16:47:46 - INFO - Log file: analysis_results/LV_analysis/LV_analysis.log

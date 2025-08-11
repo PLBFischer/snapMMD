@@ -1,0 +1,29 @@
+2025-08-11 16:10:47 - INFO - Starting analysis for Repressilator dataset
+2025-08-11 16:10:47 - INFO - Plot seed: 42
+2025-08-11 16:10:47 - INFO - Score seeds: [1, 2, 3, 4, 5, 40, 41, 42, 43, 44]
+2025-08-11 16:10:47 - INFO - Output directory: analysis_results/Repressilator_analysis
+2025-08-11 16:10:47 - INFO - Loading data and creating plot...
+2025-08-11 16:10:49 - INFO - Plot saved: analysis_results/Repressilator_analysis/Repressilator_results_seed_42.png
+2025-08-11 16:10:49 - INFO - Calculating scores across multiple seeds...
+2025-08-11 16:10:50 - INFO - 
+Calculating scores for Repressilator:
+2025-08-11 16:10:50 - INFO - --------------------------------------------------
+2025-08-11 16:10:57 - INFO - Seed 1: MMD = 0.121788, EMD = 0.106799
+2025-08-11 16:10:58 - INFO - Seed 2: MMD = 1.571581, EMD = 2.332378
+2025-08-11 16:10:59 - INFO - Seed 3: MMD = 0.130014, EMD = 0.106703
+2025-08-11 16:10:59 - INFO - Seed 4: MMD = 0.088130, EMD = 0.102607
+2025-08-11 16:11:00 - INFO - Seed 5: MMD = 1.709690, EMD = 3.107862
+2025-08-11 16:11:01 - INFO - Seed 40: MMD = 2.727915, EMD = 2.255022
+2025-08-11 16:11:02 - INFO - Seed 41: MMD = 1.715375, EMD = 3.224231
+2025-08-11 16:11:02 - INFO - Seed 42: MMD = 0.104489, EMD = 0.091726
+2025-08-11 16:11:03 - INFO - Seed 43: MMD = 1.785958, EMD = 3.464392
+2025-08-11 16:11:04 - INFO - Seed 44: MMD = 0.209086, EMD = 0.158897
+2025-08-11 16:11:04 - INFO - 
+MMD Results:
+2025-08-11 16:11:04 - INFO - Mean ± Std: 1.016403 ± 0.934344
+2025-08-11 16:11:04 - INFO - 
+EMD Results:
+2025-08-11 16:11:04 - INFO - Mean ± Std: 1.495061 ± 1.424657
+2025-08-11 16:11:04 - INFO - Analysis complete for Repressilator!
+2025-08-11 16:11:04 - INFO - Results saved to: analysis_results/Repressilator_analysis
+2025-08-11 16:11:04 - INFO - Log file: analysis_results/Repressilator_analysis/Repressilator_analysis.log

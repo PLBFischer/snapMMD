@@ -1,0 +1,28 @@
+2025-08-11 16:47:49 - INFO - Starting analysis for pbmc dataset
+2025-08-11 16:47:49 - INFO - Plot seed: 42
+2025-08-11 16:47:49 - INFO - Score seeds: [1, 2, 3, 4, 5, 40, 41, 42, 43, 44]
+2025-08-11 16:47:49 - INFO - Output directory: analysis_results/pbmc_analysis
+2025-08-11 16:47:49 - INFO - Setting up PCA for PBMC dataset...
+2025-08-11 16:47:49 - INFO - PCA explained variance: 0.8080
+2025-08-11 16:47:49 - INFO - Loading data and creating plot...
+2025-08-11 16:47:50 - INFO - Plot saved: analysis_results/pbmc_analysis/pbmc_results_seed_42.png
+2025-08-11 16:47:50 - INFO - Calculating scores across multiple seeds...
+2025-08-11 16:47:50 - INFO - 
+Calculating scores for pbmc:
+2025-08-11 16:47:50 - INFO - --------------------------------------------------
+2025-08-11 16:47:50 - INFO - Seed 1: MMD = 0.328148
+2025-08-11 16:47:50 - INFO - Seed 2: MMD = 0.334801
+2025-08-11 16:47:50 - INFO - Seed 3: MMD = 0.327387
+2025-08-11 16:47:50 - INFO - Seed 4: MMD = 0.288389
+2025-08-11 16:47:50 - INFO - Seed 5: MMD = 0.308555
+2025-08-11 16:47:50 - INFO - Seed 40: MMD = 0.318107
+2025-08-11 16:47:50 - INFO - Seed 41: MMD = 0.291286
+2025-08-11 16:47:50 - INFO - Seed 42: MMD = 0.329643
+2025-08-11 16:47:50 - INFO - Seed 43: MMD = 0.353768
+2025-08-11 16:47:50 - INFO - Seed 44: MMD = 0.290660
+2025-08-11 16:47:50 - INFO - 
+MMD Results:
+2025-08-11 16:47:50 - INFO - Mean ± Std: 0.317074 ± 0.020753
+2025-08-11 16:47:50 - INFO - Analysis complete for pbmc!
+2025-08-11 16:47:50 - INFO - Results saved to: analysis_results/pbmc_analysis
+2025-08-11 16:47:50 - INFO - Log file: analysis_results/pbmc_analysis/pbmc_analysis.log

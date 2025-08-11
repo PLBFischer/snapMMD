@@ -1,0 +1,29 @@
+2025-08-11 16:10:47 - INFO - Starting analysis for GoM dataset
+2025-08-11 16:10:47 - INFO - Plot seed: 42
+2025-08-11 16:10:47 - INFO - Score seeds: [1, 2, 3, 4, 5, 40, 41, 42, 43, 44]
+2025-08-11 16:10:47 - INFO - Output directory: analysis_results/GoM_analysis
+2025-08-11 16:10:47 - INFO - Loading data and creating plot...
+2025-08-11 16:10:49 - INFO - Plot saved: analysis_results/GoM_analysis/GoM_results_seed_42.png
+2025-08-11 16:10:49 - INFO - Calculating scores across multiple seeds...
+2025-08-11 16:10:50 - INFO - 
+Calculating scores for GoM:
+2025-08-11 16:10:50 - INFO - --------------------------------------------------
+2025-08-11 16:11:00 - INFO - Seed 1: MMD = 1.262092, EMD = 0.663637
+2025-08-11 16:11:03 - INFO - Seed 2: MMD = 1.232780, EMD = 0.664065
+2025-08-11 16:11:06 - INFO - Seed 3: MMD = 1.198590, EMD = 0.639815
+2025-08-11 16:11:09 - INFO - Seed 4: MMD = 1.213113, EMD = 0.646637
+2025-08-11 16:11:12 - INFO - Seed 5: MMD = 1.184577, EMD = 0.625871
+2025-08-11 16:11:14 - INFO - Seed 40: MMD = 1.307399, EMD = 0.707828
+2025-08-11 16:11:17 - INFO - Seed 41: MMD = 1.252860, EMD = 0.677825
+2025-08-11 16:11:20 - INFO - Seed 42: MMD = 1.248107, EMD = 0.670414
+2025-08-11 16:11:23 - INFO - Seed 43: MMD = 1.233594, EMD = 0.662703
+2025-08-11 16:11:26 - INFO - Seed 44: MMD = 1.260619, EMD = 0.679473
+2025-08-11 16:11:26 - INFO - 
+MMD Results:
+2025-08-11 16:11:26 - INFO - Mean ± Std: 1.239373 ± 0.033594
+2025-08-11 16:11:26 - INFO - 
+EMD Results:
+2025-08-11 16:11:26 - INFO - Mean ± Std: 0.663827 ± 0.021758
+2025-08-11 16:11:26 - INFO - Analysis complete for GoM!
+2025-08-11 16:11:26 - INFO - Results saved to: analysis_results/GoM_analysis
+2025-08-11 16:11:26 - INFO - Log file: analysis_results/GoM_analysis/GoM_analysis.log
