@@ -23,7 +23,7 @@ def get_settings(taskname):
 
 
 def main():
-    seeds = [42] #[1, 2, 3, 4, 5, 40, 41, 42, 43, 44]
+    seeds = [int(sys.argv[2])] #[1, 2, 3, 4, 5, 40, 41, 42, 43, 44]
     # grab command line arguments 
     #my_task_id = int(sys.argv[1])
     #num_tasks = int(sys.argv[2])
@@ -31,7 +31,7 @@ def main():
     # determine which task to run
     task_name = sys.argv[1]
 
-    data = np.load(f"../../data/classic/{task_name}_data.npz")
+    data = np.load(f"data/classic/{task_name}_data.npz")
     N_steps = data['N_steps']
     Xs =[torch.tensor(data["Xs"][i]).to(device) for i in range(N_steps-1)] # training data
     X_val = torch.tensor(data["Xs"][-1]).to(device) # forecasting target
@@ -56,8 +56,8 @@ def main():
         forecast = torchsde.sdeint(mymodel, X_0.to(device), torch.tensor([0, dts[-1]/torch.tensor(time_scale).to(device)]).to(device), 
                            method='euler')
 
-        torch.save(mymodel.state_dict(), f"./models/{task_name}_model_{seed}.pt")
-        np.savez(f"./forecasts/{task_name}_forecast_{seed}.npz", 
+        torch.save(mymodel.state_dict(), f"models/{task_name}_model_{seed}.pt")
+        np.savez(f"forecasts/{task_name}_forecast_{seed}.npz", 
                  forecast = forecast.cpu().detach().numpy(), 
                  X_val = X_val.cpu().detach().numpy())
 
